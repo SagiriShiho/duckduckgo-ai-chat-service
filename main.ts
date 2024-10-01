@@ -10,7 +10,7 @@ import { cron } from "./src/cron.ts";
 const app = new Hono();
 
 auth(app);
-limit(app);
+//limit(app);
 
 chat(app);
 models(app);
